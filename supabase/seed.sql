@@ -1,0 +1,3 @@
+-- Demo data is seeded per authenticated owner by lib/repository.ts on the
+-- first successful sign-in. This keeps every row within the RLS ownership
+-- model and makes a fresh hosted deployment feel complete immediately.

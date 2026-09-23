@@ -1,0 +1,71 @@
+/* Hallmark design tokens · Coral workbench */
+:root {
+  --color-paper: oklch(97.5% 0.009 72);
+  --color-surface: oklch(99% 0.006 72);
+  --color-surface-raised: oklch(100% 0.004 72);
+  --color-paper-2: oklch(94.5% 0.012 72);
+  --color-paper-3: oklch(91% 0.014 72);
+  --color-rule: oklch(86% 0.012 72);
+  --color-rule-strong: oklch(72% 0.014 72);
+  --color-neutral: oklch(47% 0.014 68);
+  --color-muted: oklch(39% 0.014 68);
+  --color-ink-2: oklch(28% 0.014 55);
+  --color-ink: oklch(18% 0.014 52);
+  --color-accent: oklch(49% 0.125 34);
+  --color-accent-soft: oklch(93% 0.025 36);
+  --color-accent-ink: oklch(98% 0.006 72);
+  --color-focus: oklch(44% 0.13 245);
+  --color-error: oklch(50% 0.16 24);
+  --color-error-soft: oklch(94% 0.025 24);
+  --color-success: oklch(43% 0.09 145);
+  --color-success-soft: oklch(94% 0.025 145);
+  --color-warning: oklch(52% 0.1 75);
+  --color-warning-soft: oklch(94% 0.03 75);
+  --color-overlay: oklch(18% 0.014 52 / 0.36);
+
+  --font-display: var(--font-fraunces), ui-serif, serif;
+  --font-body: var(--font-geist), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2rem;
+  --text-2xl: 2.75rem;
+  --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
+
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-round: 999rem;
+  --rule-thin: 1px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}
